@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9E3030D2-F6C5-4E8D-B3E8-D9912FD2ED79</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MagicEight</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FB8B9EC0-9C75-4B0B-AC2D-5417B03B1A92</key>
+		<string>https://github.com/alemacgo/MagicEight.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MagicEight.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FB8B9EC0-9C75-4B0B-AC2D-5417B03B1A92</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/alemacgo/MagicEight.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FB8B9EC0-9C75-4B0B-AC2D-5417B03B1A92</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FB8B9EC0-9C75-4B0B-AC2D-5417B03B1A92</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MagicEight</string>
+		</dict>
+	</array>
+</dict>
+</plist>
