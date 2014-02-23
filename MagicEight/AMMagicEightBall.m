@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 M-ITI. All rights reserved.
 //
 
-#import "AMMagicEight.h"
+#import "AMMagicEightBall.h"
 
-@implementation AMMagicEight
+@implementation AMMagicEightBall
 
 - (NSArray *) predictions {
     if (_predictions == nil) {

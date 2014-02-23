@@ -7,7 +7,7 @@
 //
 
 #import "AMViewController.h"
-#import "AMMagicEight.h"
+#import "AMMagicEightBall.h"
 
 @interface AMViewController ()
 
@@ -19,7 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    self.magicEightBall = [[AMMagicEight alloc] init];
+    self.magicEightBall = [[AMMagicEightBall alloc] init];
     
 }
 

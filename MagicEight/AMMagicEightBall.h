@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface AMMagicEight : NSObject
+@interface AMMagicEightBall : NSObject
 
 @property (strong, nonatomic) NSArray *predictions;
 

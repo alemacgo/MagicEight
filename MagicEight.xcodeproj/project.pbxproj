@@ -21,7 +21,7 @@
 		71C5E7C218BA51E400845359 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71C5E7A418BA51E300845359 /* UIKit.framework */; };
 		71C5E7CA18BA51E400845359 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71C5E7C818BA51E400845359 /* InfoPlist.strings */; };
 		71C5E7CC18BA51E400845359 /* MagicEightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C5E7CB18BA51E400845359 /* MagicEightTests.m */; };
-		71C5E7D718BA76A900845359 /* AMMagicEight.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C5E7D618BA76A900845359 /* AMMagicEight.m */; };
+		71C5E7D718BA76A900845359 /* AMMagicEightBall.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C5E7D618BA76A900845359 /* AMMagicEightBall.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +54,8 @@
 		71C5E7C718BA51E400845359 /* MagicEightTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MagicEightTests-Info.plist"; sourceTree = "<group>"; };
 		71C5E7C918BA51E400845359 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		71C5E7CB18BA51E400845359 /* MagicEightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagicEightTests.m; sourceTree = "<group>"; };
-		71C5E7D518BA76A900845359 /* AMMagicEight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMMagicEight.h; sourceTree = "<group>"; };
-		71C5E7D618BA76A900845359 /* AMMagicEight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMMagicEight.m; sourceTree = "<group>"; };
+		71C5E7D518BA76A900845359 /* AMMagicEightBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMMagicEightBall.h; sourceTree = "<group>"; };
+		71C5E7D618BA76A900845359 /* AMMagicEightBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMMagicEightBall.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,8 +120,8 @@
 				71C5E7B618BA51E300845359 /* AMViewController.m */,
 				71C5E7B818BA51E300845359 /* Images.xcassets */,
 				71C5E7A718BA51E300845359 /* Supporting Files */,
-				71C5E7D518BA76A900845359 /* AMMagicEight.h */,
-				71C5E7D618BA76A900845359 /* AMMagicEight.m */,
+				71C5E7D518BA76A900845359 /* AMMagicEightBall.h */,
+				71C5E7D618BA76A900845359 /* AMMagicEightBall.m */,
 			);
 			path = MagicEight;
 			sourceTree = "<group>";
@@ -256,7 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71C5E7B118BA51E300845359 /* AMAppDelegate.m in Sources */,
-				71C5E7D718BA76A900845359 /* AMMagicEight.m in Sources */,
+				71C5E7D718BA76A900845359 /* AMMagicEightBall.m in Sources */,
 				71C5E7B718BA51E300845359 /* AMViewController.m in Sources */,
 				71C5E7AD18BA51E300845359 /* main.m in Sources */,
 			);
