@@ -112,8 +112,6 @@
 		71C5E7A618BA51E300845359 /* MagicEight */ = {
 			isa = PBXGroup;
 			children = (
-				71C5E7AF18BA51E300845359 /* AMAppDelegate.h */,
-				71C5E7B018BA51E300845359 /* AMAppDelegate.m */,
 				71C5E7B218BA51E300845359 /* Main.storyboard */,
 				71C5E7B518BA51E300845359 /* AMViewController.h */,
 				71C5E7B618BA51E300845359 /* AMViewController.m */,
@@ -126,6 +124,8 @@
 		71C5E7A718BA51E300845359 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				71C5E7AF18BA51E300845359 /* AMAppDelegate.h */,
+				71C5E7B018BA51E300845359 /* AMAppDelegate.m */,
 				71C5E7A818BA51E300845359 /* MagicEight-Info.plist */,
 				71C5E7A918BA51E300845359 /* InfoPlist.strings */,
 				71C5E7AC18BA51E300845359 /* main.m */,

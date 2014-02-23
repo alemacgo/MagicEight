@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface AMViewController : UIViewController
+- (IBAction)buttonPressed;
 
 @end
