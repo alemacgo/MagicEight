@@ -36,5 +36,6 @@
 
 - (IBAction)buttonPressed {
     self.predictionLabel.text = @"yes";
+    self.predictionLabel.textColor = [UIColor redColor];
 }
 @end
