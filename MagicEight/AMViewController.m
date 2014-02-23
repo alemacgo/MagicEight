@@ -35,7 +35,20 @@
 }
 
 - (IBAction)buttonPressed {
-    self.predictionLabel.text = @"yes";
+    
+    NSArray *predictions = [[NSArray alloc] initWithObjects:
+        @"It is certain.",
+        @"It is decidedly so.",
+        @"All signs say YES.",
+        @"The stars are\nnot aligned.",
+        @"My reply is NO.",
+        @"It is doubtful.",
+        @"Better not tell you now.",
+        @"Concentrate and ask again.",
+        @"I'm unable to answer now.",
+        nil];
+    
+    self.predictionLabel.text = [predictions objectAtIndex:3];
     self.predictionLabel.textColor = [UIColor redColor];
 }
 @end
