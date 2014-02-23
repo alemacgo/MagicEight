@@ -39,6 +39,6 @@
 
 - (IBAction)buttonPressed {
     self.predictionLabel.text = [self.magicEightBall randomPrediction];
-    self.predictionLabel.textColor = [UIColor redColor];
+    //self.predictionLabel.textColor = [UIColor redColor];
 }
 @end
