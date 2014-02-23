@@ -27,6 +27,6 @@
 }
 
 - (IBAction)buttonPressed {
-    NSLog(@"button pressed");
+    self.predictionLabel.text = @"yes";
 }
 @end
