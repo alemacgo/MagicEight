@@ -8,9 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-@interface AMMagicEightBall : NSObject
+@interface AMMagicEightBall : NSObject {
+    NSArray *_predictions; // this is created automatically if readonly is not present
+}
 
-@property (strong, nonatomic) NSArray *predictions;
+@property (strong, nonatomic, readonly) NSArray *predictions;
 
 - (NSString*) randomPrediction;
 
