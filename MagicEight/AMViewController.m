@@ -47,8 +47,8 @@
 }
 
 - (IBAction)buttonPressed {
-        
-    self.predictionLabel.text = [self.predictions objectAtIndex:3];
+    int random = arc4random_uniform(self.predictions.count);
+    self.predictionLabel.text = [self.predictions objectAtIndex:random];
     self.predictionLabel.textColor = [UIColor redColor];
 }
 @end
