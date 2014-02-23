@@ -8,10 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+@class AMMagicEight;
+
 @interface AMViewController : UIViewController
 
 @property (strong, nonatomic) IBOutlet UILabel *predictionLabel;
-@property (strong, nonatomic) NSArray *predictions;
+@property (strong, nonatomic) AMMagicEight *magicEightBall;
 
 - (IBAction)buttonPressed;
 

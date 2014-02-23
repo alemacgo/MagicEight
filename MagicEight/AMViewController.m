@@ -7,6 +7,7 @@
 //
 
 #import "AMViewController.h"
+#import "AMMagicEight.h"
 
 @interface AMViewController ()
 
@@ -18,18 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.magicEightBall = [[AMMagicEight alloc] init];
     
-    self.predictions = [[NSArray alloc] initWithObjects:
-       @"It is certain.",
-       @"It is decidedly so.",
-       @"All signs say YES.",
-       @"The stars are\nnot aligned.",
-       @"My reply is NO.",
-       @"It is doubtful.",
-       @"Better not tell you now.",
-       @"Concentrate and ask again.",
-       @"I'm unable to answer now.",
-       nil];
 }
 
 /*
@@ -47,8 +38,7 @@
 }
 
 - (IBAction)buttonPressed {
-    int random = arc4random_uniform(self.predictions.count);
-    self.predictionLabel.text = [self.predictions objectAtIndex:random];
+    self.predictionLabel.text = [self.magicEightBall randomPrediction];
     self.predictionLabel.textColor = [UIColor redColor];
 }
 @end
