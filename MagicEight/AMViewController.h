@@ -9,7 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface AMViewController : UIViewController
+
 @property (strong, nonatomic) IBOutlet UILabel *predictionLabel;
+@property (strong, nonatomic) NSArray *predictions;
+
 - (IBAction)buttonPressed;
 
 @end
