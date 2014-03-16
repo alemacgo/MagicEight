@@ -8,6 +8,10 @@
 
 #import "AMMagicEightBall.h"
 
+@interface AMMagicEightBall()
+    // This is the private API!
+@end
+
 @implementation AMMagicEightBall
 
 - (NSArray *) predictions {
@@ -41,7 +45,8 @@
 }
 
 - (NSString*) randomPrediction {
-    int random = arc4random_uniform(self.predictions.count);
+    unsigned random = arc4random() % self.predictions.count;
+    //int random = arc4random_uniform(self.predictions.count);
     return [self.predictions objectAtIndex:random];
 }
 
